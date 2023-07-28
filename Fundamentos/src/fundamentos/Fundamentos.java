@@ -23,6 +23,12 @@ public class Fundamentos {
         
         String bairro =new String ("Centro");
         
+        //Declaraçãode Wrappers
+        
+        int nota1 =Integer.parseInt("8");
+        double mediaF = Double.parseDouble("8.5");
+        boolean aprovado = Boolean.parseBoolean("true");
+        
     }
     
     
