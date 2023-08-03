@@ -33,9 +33,9 @@ public class CalcularValorProduto {
         
         if (formaPagamento == 'D' || formaPagamento == 'd') {
             if (valorTotalCompra <= 100) {
-                valorTotalCompra *= 0.95; // Aplica desconto de 5% para compra no débito abaixo de R$ 100
+                valorTotalCompra *= 0.95; 
             } else {
-                valorTotalCompra *= 0.97; // Aplica desconto de 3% para compra no débito acima de R$ 100
+                valorTotalCompra *= 0.97; 
             }
             System.out.println("Compra no débito com desconto aplicado.");
         } else if (formaPagamento == 'C' || formaPagamento == 'c') {
