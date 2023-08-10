@@ -28,7 +28,7 @@ public class ValorEconomizado {
         double valorTotal = valores[opcao - 1];
         double percentualEconomia = percentuais[opcao - 1];
 
-        int meses = (int) Math.ceil(valorTotal / (economiaMensal * percentualEconomia));
+        int meses = (int) (valorTotal / economiaMensal);
 
         System.out.println("Item escolhido: " + itens[opcao - 1]);
         System.out.println("Valor total: R$ " + valorTotal);
