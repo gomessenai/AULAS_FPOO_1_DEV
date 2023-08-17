@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package enumeracao.atividades;
 
 /**
@@ -9,5 +6,11 @@ package enumeracao.atividades;
  * @author Aluno
  */
 public class Produtos {
+    public static void main(String[] args) {
+        Itens itens =new Itens(produtosEnum.PIRULITO);
+        System.out.println(itens);
+    }
+    
+    
     
 }
