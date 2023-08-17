@@ -7,7 +7,7 @@ package enumeracao.atividades;
  */
 public enum produtosEnum {
     COXINHA9("Coxinha"),
-    CAFÉ("Café"),
+    CAFE("Café"),
     CHOCOLATE("Chocolate"),
     BALA("Bala"),
     PIRULITO("Pirulito"),
@@ -23,6 +23,8 @@ public enum produtosEnum {
     
     public String getStatus() {
         return this.status;
+        
+        
     }
     
     

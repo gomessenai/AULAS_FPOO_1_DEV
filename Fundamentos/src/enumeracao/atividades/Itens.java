@@ -15,12 +15,15 @@ public class Itens {
     public Itens(produtosEnum produto) {
         this.produto = produto;
     }
+    public void setProduto(produtosEnum produto) {
+        this.produto = produto;
+    }
 
     @Override
     public String toString() {
         return "Itens{" + "produto=" + produto + '}';
     }
-    
-    
-    
-}
+    }
+        
+        
+  
