@@ -8,6 +8,8 @@ package classes;
  *
  * @author Aluno
  */
-public class CorEnum {
+public enum CorEnum {
+    
+    CINZA, BRANCO, VERMELHO, AZUL, AMARELO, VERDE, PRATA, PRETO, BEGE, LARANJA, ROXO
     
 }
