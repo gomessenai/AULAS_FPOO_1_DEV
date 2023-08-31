@@ -2,9 +2,9 @@ package orientacaoobjetos;
 
 public interface PostInterface {
     
-    int POST_COMUM = 1;
-    int POST_LEGAL = 3;
-    int POST_SUPER_LEGAL = 5;
+    int UMA_ESTRELA = 1;
+    int TRES_ESTRELAS = 3;
+    int CINCO_ESTRELAS = 5;
     
     
     

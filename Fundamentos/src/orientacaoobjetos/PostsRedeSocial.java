@@ -27,15 +27,15 @@ public class PostsRedeSocial implements PostInterface{
     //Numero padrao é 1
     
     public int numeroPadraoCafe(int numeroPadrao) {
-        return numeroPadrao * POST_SUPER_LEGAL;  
+        return numeroPadrao * CINCO_ESTRELAS;  
     }
         
         public int numeroPadraoWhey (int numeroPadraoWhey) {
-        return numeroPadraoWhey * POST_LEGAL;  
+        return numeroPadraoWhey * TRES_ESTRELAS;  
     
     
 }
         public int numeroPadraoCha (int numeroPadraoCha) {
-            return numeroPadraoCha * POST_COMUM;
+            return numeroPadraoCha * UMA_ESTRELA;
         }
 }
